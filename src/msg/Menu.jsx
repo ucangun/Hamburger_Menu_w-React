@@ -47,9 +47,15 @@ const burgerData = [
 ];
 
 const Menu = () => {
+  const burgers = burgerData;
   return (
     <div className="menu">
       <h2>Our Menu</h2>
+      <ul className="hamburgers">
+        {burgers.map((hamburger) => (
+          <Hamburger burgerObj={hamburger} key={hamburger.name} />
+        ))}
+      </ul>
     </div>
   );
 };
