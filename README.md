@@ -5,6 +5,28 @@ https://umutfirstreactapp.netlify.app/
 ## Project Purpose
 The primary objective of this project is to enhance and demonstrate my skills in React, focusing specifically on working with props and JSX structure. This project serves as my first React application, aiming to get familiar with React's file structure and the basics of creating components and passing props.
 
+## Project Skeleton
+```
+(folder)
+|
+├── public
+|     ├── img
+│     └── index.html
+├── src
+│    ├── msg
+│    │     ├── Footer.jsx
+│    │     ├── Hamburger.jsx
+│    │     ├── Header.jsx
+│    │     ├── Menu.jsx
+│    ├── App.js
+│    ├── App.css
+│    └── index.js
+│
+├── .gitignore
+├── package.lock.json
+├── package.json
+└── README.md
+```
 
 ## Technologies Used
 - **HTML**: Used for structuring the content and layout of the application.
